@@ -13,7 +13,7 @@ The skill checks all three on first run and walks you through anything missing (
 ## Install
 
 ```bash
-git clone --branch v1.0.0 https://github.com/wongzw/figma-to-openviking.git ~/.claude/skills/figma-to-openviking
+git clone --branch v1.0.1 https://github.com/wongzw/figma-to-openviking.git ~/.claude/skills/figma-to-openviking
 ```
 
 For other agents, clone into that agent's skills folder.
@@ -28,3 +28,7 @@ Send your agent a Figma link and ask it to import the designs into OpenViking. I
 4. Import the rest after you confirm, then check that every file landed.
 
 It only reads from Figma, never edits the images, and keeps emails, phone numbers, URLs and keys out of file names and the manifest.
+
+## License
+
+MIT. See [LICENSE](LICENSE).
